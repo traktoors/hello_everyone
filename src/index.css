@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+html, body, #root{
+  height: 100vh;
+}
+body{
+    background-color: #fff4ef;
+}
+h1{
+  color: #574a40;
+}
+hr{
+  border: 1px solid #e7d6c8;
+}
+.elevated-card{
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.21), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 10px;
+}
+.h-90{
+  height: 90%;
+}
+.w-90{
+  width: 90%;
+}
+.exp-h{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: 1;
+}
+.p-25{
+  padding: 25px;
+}
+.flex-r{
+  display: flex;
+  flex-direction: row;
+}
+.align-c{
+  display: flex;
+  align-items: center;
+}
+.flex-c{
+  display: flex;
+  flex-direction: column;
+}
+.gap-10{
+  gap: 10px;
+}
+.center-w{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+#new-msg-div{
+  padding: 30px;
+  width: 35%;
+}
+#msg-list-div{
+  padding: 30px;
+  width: 65%;
+  overflow-y: auto;
+}
+input[type="text"], textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff4ef;
+  border-radius: 6px;
+  resize: none;
+  font-size: 16px;
+}
+input[type="text"]:focus, textarea:focus{
+  outline: none;
+}
+#btn-send{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #d6bda9;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#btn-send:hover{
+  background-color: #c5a18b;
+}
+.msg-date{
+  padding-left: 10px;
+  color: grey;
+}
+.letter-count-p{
+  color: grey;
+  font-size: 12px;
+  padding: 0 10px;
+  text-align: right;
+}
