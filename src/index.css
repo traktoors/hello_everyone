@@ -101,3 +101,30 @@ input[type="text"]:focus, textarea:focus{
   padding: 0 10px;
   text-align: right;
 }
+
+@media (max-width: 1024px) {
+  #main-cont {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #new-msg-div,
+  #msg-list-div {
+    width: 100%;
+  }
+
+  #msg-list-div{
+    flex: 1;
+  }
+
+  .elevated-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  html, body, #root{
+  height: 180vh;
+}
+}

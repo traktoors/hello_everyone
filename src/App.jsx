@@ -78,7 +78,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className='center-w h-90 p-25 flex-r'>
+      <div id='main-cont' className='center-w h-90 p-25 flex-r gap-10'>
         <div id="new-msg-div" className='elevated-card flex-c gap-10'>
           <h1>Share What’s On Your Mind Today</h1>
           <hr />
